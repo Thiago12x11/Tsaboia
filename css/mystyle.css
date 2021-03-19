@@ -61,7 +61,7 @@ article{
   padding-right: 20%;
   text-align: center;
   width: auto;
-  height: 500px;
+  height: 600px;
   background-color: #dfdfdf;
   font-family: 'BioRhyme', serif;
   bottom:1px;
@@ -120,9 +120,10 @@ article{
   font-size: 3rem;
 }
 
+
 .mytitle{
   padding-top: 5%;
-  padding-bottom: 6%;
+  padding-bottom: 2%;
   font-family: 'B612', sans-serif;
   color: #3b3b3b;
   position: relative;
@@ -217,7 +218,19 @@ article{
   list-style: none;
   width: 100%;
   margin:1.6%;
-  
+ 
+}
+@media only screen and (max-width: 600px){
+  div ul {
+    margin-left:0%;
+    padding-left: 0%;
+  }
+  div ul .media-icons{
+    display:inline-block;
+    margin-left:0%;
+    padding-left: 0%;
+    position:relative;
+  }
 }
 
 .media-icons{
